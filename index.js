@@ -16,8 +16,8 @@ var rnApk = {
    *
    * @return {Array} Returns an array containing the apps.
    */
-  getApps: function() {
-    return RNAPK.getApps();
+  getApps: function(callback) {
+    return RNAPK.getApps(callback);
   },
 
   /**
@@ -83,8 +83,8 @@ var rnApk = {
    * @param {String} packageName - Package's name of the application.
    * @return {Boolean} Returns true if app is installed, false if not.
    */
-  isAppInstalled: function(packageName) {
-    return RNAPK.isAppInstalled(packageName);
+  isAppInstalled: function(packageName, callback) {
+    return RNAPK.isAppInstalled(packageName, callback);
   },
 
   /**
