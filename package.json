@@ -2,13 +2,13 @@
   "main": "index.js",
   "license": "MIT",
   "name": "rn-apk",
-  "author": "SkyzohKey <skyzohkey@protonmail.com>",
+  "author": "Mark Tan <mtcy.9012@gmail.com>",
   "version": "0.2.8",
   "description":
-    "API to install, uninstall, get version, check presence of a package, or fetch installed packages on Android.",
+    "Made changes from SkyzohKey. API to install, uninstall, get version, check presence of a package, or fetch installed packages on Android.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Skyzohkey/react-native-apk"
+    "url": "https://github.com/csmtcy/react-native-apk.git"
   },
   "keywords": [
     "react-native",
