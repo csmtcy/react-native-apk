@@ -56,7 +56,8 @@ public class ReactNativeAPKModule extends ReactContextBaseJavaModule {
       Uri apkUri = FileProvider.getUriForFile(this.reactContext, callingPackageName+".fileprovider", toInstall);
       Intent intent = new Intent(Intent.ACTION_INSTALL_PACKAGE);
       intent.setData(apkUri);
-      intent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+      intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+      intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
       this.reactContext.startActivity(intent);
     } else {
       Uri apkUri = Uri.fromFile(toInstall);
@@ -121,7 +122,7 @@ public class ReactNativeAPKModule extends ReactContextBaseJavaModule {
   /*@Override
   public @Nullable Map<String, Object> getConstants() {
       Map<String, Object> constants = new HashMap<>();
-  
+
       constants.put("getApps", getApps());
       constants.put("getNonSystemApps", getNonSystemApps());
       return constants;
