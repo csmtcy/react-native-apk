@@ -1,8 +1,8 @@
 # Forked and made changes from SkyzohKey
 
 # Enhanced List
-[x] Added callback parameter to function ReactNativeAPK.isAppInstalled
-[x] Resolve error `Calling startActivity() from outside of an Activity context requires the FLAG_ACTIVITY_NEW_TASK flag` on Android 8.0 +
+* Added callback parameter to function ReactNativeAPK.isAppInstalled
+* Resolve error `Calling startActivity() from outside of an Activity context requires the FLAG_ACTIVITY_NEW_TASK flag` on Android 8.0 +
 
 # rn-apk
 
