@@ -3,6 +3,7 @@
 # Enhanced List
 * Added callback parameter to function ReactNativeAPK.isAppInstalled
 * Resolve error `Calling startActivity() from outside of an Activity context requires the FLAG_ACTIVITY_NEW_TASK flag` on Android 8.0 +
+* runApp add condition checking if package / activity is exist prevent app crash
 
 # rn-apk
 

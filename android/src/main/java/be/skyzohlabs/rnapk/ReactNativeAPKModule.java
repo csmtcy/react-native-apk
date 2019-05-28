@@ -116,7 +116,11 @@ public class ReactNativeAPKModule extends ReactContextBaseJavaModule {
     // TODO: Allow to pass Extra's from react.
     Intent launchIntent = this.reactContext.getPackageManager().getLaunchIntentForPackage(packageName);
     //launchIntent.putExtra("test", "12331");
-    this.reactContext.startActivity(launchIntent);
+    if (launchIntent != null){
+      this.reactContext.startActivity(launchIntent);
+    }
+    //没有默认的入口 Activity
+
   }
 
   /*@Override

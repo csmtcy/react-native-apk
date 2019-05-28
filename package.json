@@ -3,7 +3,7 @@
   "license": "MIT",
   "name": "rn-apk",
   "author": "Mark Tan <mtcy.9012@gmail.com>",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description":
     "Made changes from SkyzohKey. API to install, uninstall, get version, check presence of a package, or fetch installed packages on Android.",
   "repository": {
